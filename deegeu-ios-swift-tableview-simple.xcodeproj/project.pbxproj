@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99418CB91CC2C50D0096AFEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99418CB81CC2C50D0096AFEC /* AppDelegate.swift */; };
+		99418CBE1CC2C50D0096AFEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99418CBC1CC2C50D0096AFEC /* Main.storyboard */; };
+		99418CC01CC2C50D0096AFEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99418CBF1CC2C50D0096AFEC /* Assets.xcassets */; };
+		99418CC31CC2C50D0096AFEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99418CC11CC2C50D0096AFEC /* LaunchScreen.storyboard */; };
+		99418CCC1CC2C62F0096AFEC /* MyTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99418CCA1CC2C62F0096AFEC /* MyTableViewDataSource.swift */; };
+		99418CCD1CC2C62F0096AFEC /* MyTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99418CCB1CC2C62F0096AFEC /* MyTableViewDelegate.swift */; };
+		99418CCF1CC2C8A70096AFEC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99418CCE1CC2C8A70096AFEC /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99418CB51CC2C50D0096AFEC /* deegeu-ios-swift-tableview-simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "deegeu-ios-swift-tableview-simple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99418CB81CC2C50D0096AFEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99418CBD1CC2C50D0096AFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99418CBF1CC2C50D0096AFEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99418CC21CC2C50D0096AFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99418CC41CC2C50D0096AFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99418CCA1CC2C62F0096AFEC /* MyTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewDataSource.swift; sourceTree = "<group>"; };
+		99418CCB1CC2C62F0096AFEC /* MyTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewDelegate.swift; sourceTree = "<group>"; };
+		99418CCE1CC2C8A70096AFEC /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99418CB21CC2C50D0096AFEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99418CAC1CC2C50D0096AFEC = {
+			isa = PBXGroup;
+			children = (
+				99418CB71CC2C50D0096AFEC /* deegeu-ios-swift-tableview-simple */,
+				99418CB61CC2C50D0096AFEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99418CB61CC2C50D0096AFEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99418CB51CC2C50D0096AFEC /* deegeu-ios-swift-tableview-simple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99418CB71CC2C50D0096AFEC /* deegeu-ios-swift-tableview-simple */ = {
+			isa = PBXGroup;
+			children = (
+				99418CCE1CC2C8A70096AFEC /* TableViewController.swift */,
+				99418CCA1CC2C62F0096AFEC /* MyTableViewDataSource.swift */,
+				99418CCB1CC2C62F0096AFEC /* MyTableViewDelegate.swift */,
+				99418CB81CC2C50D0096AFEC /* AppDelegate.swift */,
+				99418CBC1CC2C50D0096AFEC /* Main.storyboard */,
+				99418CBF1CC2C50D0096AFEC /* Assets.xcassets */,
+				99418CC11CC2C50D0096AFEC /* LaunchScreen.storyboard */,
+				99418CC41CC2C50D0096AFEC /* Info.plist */,
+			);
+			path = "deegeu-ios-swift-tableview-simple";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99418CB41CC2C50D0096AFEC /* deegeu-ios-swift-tableview-simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99418CC71CC2C50D0096AFEC /* Build configuration list for PBXNativeTarget "deegeu-ios-swift-tableview-simple" */;
+			buildPhases = (
+				99418CB11CC2C50D0096AFEC /* Sources */,
+				99418CB21CC2C50D0096AFEC /* Frameworks */,
+				99418CB31CC2C50D0096AFEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "deegeu-ios-swift-tableview-simple";
+			productName = "deegeu-ios-swift-tableview-simple";
+			productReference = 99418CB51CC2C50D0096AFEC /* deegeu-ios-swift-tableview-simple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99418CAD1CC2C50D0096AFEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel Spiess";
+				TargetAttributes = {
+					99418CB41CC2C50D0096AFEC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 99418CB01CC2C50D0096AFEC /* Build configuration list for PBXProject "deegeu-ios-swift-tableview-simple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99418CAC1CC2C50D0096AFEC;
+			productRefGroup = 99418CB61CC2C50D0096AFEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99418CB41CC2C50D0096AFEC /* deegeu-ios-swift-tableview-simple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99418CB31CC2C50D0096AFEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99418CC31CC2C50D0096AFEC /* LaunchScreen.storyboard in Resources */,
+				99418CC01CC2C50D0096AFEC /* Assets.xcassets in Resources */,
+				99418CBE1CC2C50D0096AFEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99418CB11CC2C50D0096AFEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99418CCD1CC2C62F0096AFEC /* MyTableViewDelegate.swift in Sources */,
+				99418CCC1CC2C62F0096AFEC /* MyTableViewDataSource.swift in Sources */,
+				99418CB91CC2C50D0096AFEC /* AppDelegate.swift in Sources */,
+				99418CCF1CC2C8A70096AFEC /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99418CBC1CC2C50D0096AFEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99418CBD1CC2C50D0096AFEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99418CC11CC2C50D0096AFEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99418CC21CC2C50D0096AFEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99418CC51CC2C50D0096AFEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99418CC61CC2C50D0096AFEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99418CC81CC2C50D0096AFEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "deegeu-ios-swift-tableview-simple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deegeu.deegeu-ios-swift-tableview-simple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99418CC91CC2C50D0096AFEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "deegeu-ios-swift-tableview-simple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deegeu.deegeu-ios-swift-tableview-simple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99418CB01CC2C50D0096AFEC /* Build configuration list for PBXProject "deegeu-ios-swift-tableview-simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99418CC51CC2C50D0096AFEC /* Debug */,
+				99418CC61CC2C50D0096AFEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99418CC71CC2C50D0096AFEC /* Build configuration list for PBXNativeTarget "deegeu-ios-swift-tableview-simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99418CC81CC2C50D0096AFEC /* Debug */,
+				99418CC91CC2C50D0096AFEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99418CAD1CC2C50D0096AFEC /* Project object */;
+}
