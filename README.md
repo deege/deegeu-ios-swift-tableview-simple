@@ -4,6 +4,8 @@ The purpose of this repository is to supplement the "The Swift UITableView Tutor
 
 The “The Swift UITableView Tutorial” video demonstrates creating a simple table view using UITableView. The app does not place the UITableViewDelegate or UITableViewDataSource protocols in the view controller.
 
+[![The Swift UITableView Tutorial](http://img.youtube.com/vi/trkuhgbxF44/0.jpg)](http://www.youtube.com/watch?v=trkuhgbxF44)
+
 The video uses Swift 2.2 and iOS 9.3 on Xcode 7.3
 
 You can find more iOS videos on [the DeegeU channel](http://www.deegeu.com/subscribe)

@@ -296,6 +296,7 @@
 				99418CC91CC2C50D0096AFEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
