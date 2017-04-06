@@ -10,22 +10,22 @@ import UIKit
 
 class MyTableViewDataSource: NSObject, UITableViewDataSource {
     
-    var happyThings: [AnyObject]
+    var happyThings: [Any]
     var cellIdentifier: String
     let header = "Happy Things"
     
-    init(happyThings: [AnyObject]!, cellIdentifier: String!) {
+    init(happyThings: [Any]!, cellIdentifier: String!) {
         self.happyThings = happyThings
         self.cellIdentifier = cellIdentifier
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return happyThings.count
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier, forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as UITableViewCell
         
         // Fetch Happy Item
         let item = happyThings[indexPath.row]
@@ -35,7 +35,7 @@ class MyTableViewDataSource: NSObject, UITableViewDataSource {
         return cell
     }
     
-    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return header
     }
     
