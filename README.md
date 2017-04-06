@@ -14,7 +14,7 @@ You can find more iOS videos on [the DeegeU channel](http://www.deegeu.com/subsc
 
 The code is a self contained Swift project that can be loaded into XCode.
 
-This code is written and compiled for Swift 2.2 and iOS 9.3 on Xcode 7.3.
+This code is written and compiled for Swift 3.1 and iOS 10.3 on Xcode 8.3. (Updated 04-06-17)
 
 ## Getting help
 
